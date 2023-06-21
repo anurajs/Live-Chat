@@ -5,7 +5,7 @@ export const Chat: Component = () => {
   const { userName } = useUserContext();
   return (
     <>
-      <p>{userName()}</p>
+      <p>Your username is: {userName()}</p>
       <ul>
         <li>first message</li>
       </ul>
