@@ -8,7 +8,10 @@ export const Login: Component = () => {
   const navigate = useNavigate();
   return (
     <>
-      <h1>Pressing enter will change your username to: {localUserName()}</h1>
+      <h1>
+        Pressing enter will change your username to: {localUserName()} from:{" "}
+        {userName()}
+      </h1>
       <input
         type="text"
         name="login"
