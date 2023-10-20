@@ -1,5 +1,5 @@
-import { Component } from "solid-js";
-import { useUserContext } from "../context/UserProvider";
+import { Component } from 'solid-js';
+import { useUserContext } from '../context/UserProvider';
 
 export const Chat: Component = () => {
   const { userName } = useUserContext();
